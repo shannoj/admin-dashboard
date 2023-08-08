@@ -106,6 +106,46 @@
     grid-template-rows: repeat(3, 1fr);
 }
 
+.info-cards{
+    display: grid;
+    grid-template-rows: .1fr 1fr;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    margin: 5px;
+}
+
+.card, .card-2{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.more-info{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 5px;
+    gap: 5px;
+}
+
+.info-1{
+    display: grid;
+    grid-template-rows: .2fr 1fr;
+}
+
+.trending{
+    display: grid;
+    grid-template-rows: .2fr 1fr;
+}
+
+.trending-text, .announcments{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
 
 
