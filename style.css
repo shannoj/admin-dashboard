@@ -37,7 +37,7 @@
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     border-radius: 10px;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 4fr 1fr;
 }
 
 .search-bar{
@@ -162,6 +162,9 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .card{
@@ -169,6 +172,7 @@
     grid-template-columns: .05fr 2fr;
     grid-template-rows: 1fr .5fr;
     height: 80%;
+    gap: 5px;
 }
 
 .border{
@@ -182,11 +186,39 @@
 .text{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    display: grid;
+    grid-template-rows: .25fr 1fr;
+    align-items: flex-end;
 }
 
 .card-buttons{
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr repeat(3, .25fr);
+}
+
+.card-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-icon-image{
+    width: 50%;
+    height: 50%;
+}
+
+.intro{
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: larger;
+    align-items: flex-end;
+}
+
+.details{
+    font-family: Roboto;
+    font-size: small;
 }
 
 .card-2{
@@ -285,3 +317,4 @@
     align-items: center;
     justify-content: center;
 }
+
